@@ -14,6 +14,7 @@ describe(
             {inString: 'Hello', expected: 'olleH'},
             {inString: 'This is JS', expected: 'SJ si sihT'},
             {inString: 'Dima', expected: 'amiD'},
+            {inString: 'Negative', expected: 'Negative'},
         ];
 
         testCases.forEach((test) => {
